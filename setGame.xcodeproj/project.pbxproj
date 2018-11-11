@@ -12,6 +12,8 @@
 		E2FFD72021911E2E0059FF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FFD71E21911E2E0059FF07 /* Main.storyboard */; };
 		E2FFD72221911E2F0059FF07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FFD72121911E2F0059FF07 /* Assets.xcassets */; };
 		E2FFD72521911E2F0059FF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FFD72321911E2F0059FF07 /* LaunchScreen.storyboard */; };
+		E2FFD72D2191211B0059FF07 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FFD72C2191211B0059FF07 /* Cards.swift */; };
+		E2FFD72F21913E710059FF07 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FFD72E21913E710059FF07 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E2FFD72121911E2F0059FF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2FFD72421911E2F0059FF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2FFD72621911E2F0059FF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FFD72C2191211B0059FF07 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		E2FFD72E21913E710059FF07 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				E2FFD71A21911E2E0059FF07 /* AppDelegate.swift */,
+				E2FFD72C2191211B0059FF07 /* Cards.swift */,
+				E2FFD72E21913E710059FF07 /* Deck.swift */,
 				E2FFD71C21911E2E0059FF07 /* ViewController.swift */,
 				E2FFD71E21911E2E0059FF07 /* Main.storyboard */,
 				E2FFD72121911E2F0059FF07 /* Assets.xcassets */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2FFD72F21913E710059FF07 /* Deck.swift in Sources */,
+				E2FFD72D2191211B0059FF07 /* Cards.swift in Sources */,
 				E2FFD71D21911E2E0059FF07 /* ViewController.swift in Sources */,
 				E2FFD71B21911E2E0059FF07 /* AppDelegate.swift in Sources */,
 			);
